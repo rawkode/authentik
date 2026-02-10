@@ -65,9 +65,12 @@ fieldset[name="login-sources"] {
     }
 }
 
-:host([theme="dark"]) fieldset[name="login-sources"] .pf-c-button__icon {
-    img,
-    .pf-c-button__icon .fas {
-        filter: invert(1);
+:host([theme="dark"]),
+ak-stage-identification {
+    fieldset[name="login-sources"] .pf-c-button__icon {
+        img,
+        .pf-c-button__icon .fas {
+            filter: invert(1);
+        }
     }
 }
